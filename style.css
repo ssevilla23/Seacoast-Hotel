@@ -1,0 +1,225 @@
+/* DEBUG */
+/* * {
+    background-color: black !important;
+    color: black !important;
+    border: 2px solid red !important;
+} */
+
+
+/* Link to the color palette used:
+https://colorhunt.co/palette/fff9d0caf4ffa0deff5ab2ff */
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CAF4FF;
+    color: #0065bd;
+    font-family: "Dekko", cursive;
+    font-size: 20px;
+}
+
+::selection{
+    background-color: pink;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    background-color: #CAF4FF !important;
+}
+
+#logo {
+    color: #0065bd;
+    font-family: "Courgette", cursive;
+}
+
+#logo:hover{
+    color: #b38c00;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #0065bd;
+}
+
+.nav-link a:active{
+    color:#0065bd;
+}
+
+.nav-link:hover{
+    color: #b38c00 !important;
+}
+
+/* Nav-Bar links */
+#about-target, #reserve-target, #contact-target{
+    position: relative;
+    top: -100px;
+}
+
+/* Hero Image */
+
+#hero-img{
+    font-family: "Courgette", cursive;
+    background-image: url("assets/hotel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.overlay{
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    background-color: rgba(0,0,0, .4);
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
+.overlay h1{
+    display: inline-block;
+}
+
+.overlay hr{
+    max-width: 350px;
+    height: 5px;
+    background-color: #FFF9D0;
+    border-color: #FFF9D0;
+    opacity: 1.0;
+    margin: 20px auto;
+}
+
+.overlay h2{
+    margin-top: 30px;
+}
+
+/* About Us Section */
+#about-us{
+    padding-bottom: 30px;
+}
+
+#about-us img{
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#about-us .title{
+    font-family: "Courgette", cursive;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Reserve a Room Section */
+
+.reserve{
+    width: 100%;
+    height: 150%;
+    background-image: url("assets/hotel_room.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white
+}
+
+.reserve-overlay{
+    margin: 0;
+    background-color: rgba(0,0,0, .5);
+    width: 100%;
+    height: 100%;
+    text-shadow: 1px 1px 2px black;
+}
+
+.reserve h1{
+    font-family: "Courgette", cursive;
+    font-size: 54px;
+    padding-top: 30px;
+    text-align: center;
+    color: #FFF9D0;
+}
+
+#reserve-div{
+    display: block;
+    text-align: center;
+}
+
+#reserve-form{
+    padding-bottom: 60px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#reserve-form input{
+    border-color: #b38c00;
+    border-radius: 10px;
+    border-width: 3px;
+    color: black;
+}
+
+#book-room{
+    background-color: #b38c00;
+    color: #FFF9D0;
+    border-color: #FFF9D0;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-width: 3px;
+
+    display: block;
+    margin: 0 auto;
+}
+
+#book-room:hover{
+    background-color: #755c00;
+    color: #e2d26f;
+    border-color: #e2d26f;
+}
+
+/* Contact Us Section */
+.contact{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact h1{
+    font-family: "Courgette", cursive;
+}
+
+.contact hr{
+    width: 350px;
+    height: 5px;
+    background-color: #5AB2FF;
+    border-color: #5AB2FF;
+    opacity: 1.0;
+    margin: 20px auto;
+}
+
+.contact-links a{
+    margin: 10px 0px;
+    text-decoration: none;
+    color: #0065bd;
+}
+
+.contact a:hover{
+    color: #b38c00;
+}
+
+#icon{
+    font-size: 24px;
+}
+
+/* Copyright Symbol */
+.copyright{
+    margin: 30px 0;
+    font-size: 18px;
+    text-align: center;
+}
