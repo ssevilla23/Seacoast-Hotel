@@ -7,7 +7,7 @@ appealing website–even if the hotel itself doesn’t exist.
 
 The Seacoast Hotel website includes:
 
-+ The hotel’s history provides depth to the site and a rich backstory.
++ The hotel’s history which provides depth to the site and a rich backstory.
 + An interactive reservation form that allows users to reserve a room.
 + A contact page for visitors to get in touch.
 
